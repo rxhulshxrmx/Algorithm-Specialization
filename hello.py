@@ -24,7 +24,7 @@ def read_graph_file(filename):
     return graph
 
 if __name__ == '__main__':
-    filenames = ['graph1.txt', 'graph2.txt', 'graph3.txt']
+    filenames = ['g1.txt', 'g2.txt', 'g3.txt']
     for filename in filenames:
         graph = read_graph_file(filename)
         dist = floyd_warshall(graph)
